@@ -14,7 +14,7 @@ import java.util.List;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-
+int x=10;
 		ConfigurableApplicationContext context = SpringApplication.run(DemoApplication.class, args);
 		EmpRepository empRepo = context.getBean(EmpRepository.class);
 		Employee e=new Employee();
